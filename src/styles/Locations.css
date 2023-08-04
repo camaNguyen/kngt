@@ -1,6 +1,6 @@
 .locations {
   width: 100%;
-  height: 165vh;
+  height: 170vh;
   display: block;
   flex-direction: column;
 }
@@ -83,7 +83,7 @@
 
   .locations {
     width: 100%;
-    height: 155vh;
+    height: 160vh;
     display: block;
     flex-direction: column;
   }
