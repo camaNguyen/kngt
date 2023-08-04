@@ -1,18 +1,9 @@
 /* Common styles for .faq, .faqTop, and .faqBottom */
 .faq {
   width: 100%;
-  height: 153vh;
+  height: 145vh;
   display: block;
   flex-direction: column;
-}
-
-.faqTop {
-  width: auto;
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .faqBottom {

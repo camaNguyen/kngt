@@ -1,5 +1,5 @@
 import React from "react";
-import ContactLeft from "../assets/contact.png";
+import ContactLeft from "../assets/contact1.png";
 import "../styles/Contact.css";
 
 function Contact() {

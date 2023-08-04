@@ -1,17 +1,8 @@
 .locations {
   width: 100%;
-  height: 170vh;
+  height: 145vh;
   display: block;
   flex-direction: column;
-}
-
-.locationsTop {
-  width: 100%;
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .locationsBottom {
@@ -19,8 +10,9 @@
   flex-direction: column;
   height: 50%;
   font-size: 20px;
-  align-items: center;
-  margin-top: 20px;
+  align-items: center; 
+  margin-top: 135px;
+
 }
 
 .locationsBottom button {
@@ -73,9 +65,17 @@
 
 /* Media query for screen sizes between 14 inches and 24 inches */
 @media (min-width: 14in) and (max-width: 24in) {
+  .locations {
+    height: 145vh;
+  }
   .locationsBottom p {
     font-size: 18px; /* Decrease font size for smaller screens */
   }
+
+  .locationsBottom {
+    margin-top: 145px;
+  }
+ 
 
   .locationsBottom p h1 {
     font-size: 18px; /* Decrease font size for smaller screens */

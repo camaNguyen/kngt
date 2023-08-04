@@ -1,14 +1,9 @@
 import React from "react";
-import Xomnhalalogonew from "../assets/about.png";
 import "../styles/FAQ.css";
 
 function FAQ() {
   return (
     <div className="faq">
-      <div
-        className="faqTop"
-        style={{ backgroundImage: `url(${Xomnhalalogonew})` }}
-      ></div>
       <div className="faqBottom">
         <h> FREQUENTLY ASKED QUESTIONS</h>
         <h2>Everything you need to know</h2>

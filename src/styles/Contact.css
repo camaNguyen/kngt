@@ -11,7 +11,7 @@
   flex: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 /* Right side of the contact section */
