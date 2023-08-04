@@ -170,7 +170,7 @@
 /* Media Query for screens with a maximum width of 1920px (24 inches) */
 @media only screen and (max-width: 1920px) {
   .home {
-    width: 74vh;
+    width: 85vh;
     height: 90vh;
   }
   .headerContainer h1 {

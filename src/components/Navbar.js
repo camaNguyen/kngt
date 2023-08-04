@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/xomnhala-logo.png";
+import Logo from "../assets/logo1.jpg";
 import { Link } from "react-router-dom";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import "../styles/Navbar.css";
