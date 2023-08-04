@@ -1,0 +1,186 @@
+/* Base styles for screens above 650px */
+.home {
+  width: 74vh;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.headerContainer {
+  width: 100vh;
+  margin-left: 100vh;
+}
+
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8vh;
+  line-height: 4vh;
+  font-size: 45px;
+  height: 60px;
+  font-weight: 50;
+  color: black;
+}
+
+.headerContainer p {
+  padding: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+
+.headerContainer button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.headerContainer button:hover {
+  background-color: #77D4FC;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+/* Media Query for screens with a maximum width of 650px */
+@media only screen and (max-width: 650px) {
+  .home {
+    /* Adjust height and width for better mobile display */
+    width: 100%;
+    height: 100%;
+  }
+  .headerContainer {
+    /* Reset margin-left to center the content */
+    margin-left: 0;
+    padding: 10px;
+    /* Adjust width for better mobile display */
+    width: 80%;
+    color: white;
+  }
+
+  .headerContainer h1 {
+    /* Adjust font size and height for better mobile display */
+    font-size: 30px;
+    height: 40px;
+  }
+
+  .headerContainer p {
+    /* Adjust font size for better mobile display */
+    font-size: 25px;
+  }
+
+  .headerContainer button {
+    /* Adjust button styles for better mobile display */
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1024px (14 inches) */
+@media only screen and (max-width: 1024px) {
+  .home {
+    width: 60vh;
+    height: 80vh;
+  }
+  .headerContainer h1 {
+    font-size: 35px;
+    height: 50px;
+  }
+  .headerContainer p {
+    font-size: 30px;
+  }
+  .headerContainer button {
+    font-size: 18px;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1200px (17 inches) */
+@media only screen and (max-width: 1200px) {
+  .home {
+    width: 65vh;
+    height: 85vh;
+  }
+  .headerContainer h1 {
+    font-size: 38px;
+    height: 52px;
+  }
+  .headerContainer p {
+    font-size: 33px;
+  }
+  .headerContainer button {
+    font-size: 19px;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1366px (19 inches) */
+@media only screen and (max-width: 1366px) {
+  .home {
+    width: 70vh;
+    height: 88vh;
+  }
+  .headerContainer h1 {
+    font-size: 39.5px;
+    height: 54.5px;
+  }
+  .headerContainer p {
+    font-size: 34.5px;
+  }
+  .headerContainer button {
+    font-size: 19.5px;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1600px (20 inches) */
+@media only screen and (max-width: 1600px) {
+  .home {
+    width: 72vh;
+    height: 89vh;
+  }
+  .headerContainer h1 {
+    font-size: 39.5px;
+    height: 54.5px;
+  }
+  .headerContainer p {
+    font-size: 34.5px;
+  }
+  .headerContainer button {
+    font-size: 19.5px;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1920px (24 inches) */
+@media only screen and (max-width: 1920px) {
+  .home {
+    width: 74vh;
+    height: 90vh;
+  }
+  .headerContainer h1 {
+    font-size: 40px;
+    height: 55px;
+  }
+  .headerContainer p {
+    font-size: 35px;
+  }
+  .headerContainer button {
+    font-size: 20px;
+  }
+}

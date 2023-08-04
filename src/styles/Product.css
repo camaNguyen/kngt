@@ -1,0 +1,120 @@
+.product {
+  width: 100%;
+  /* height: auto; */
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.product .productTitle {
+  font-family: cursive;
+  font-size: 60px;
+}
+
+.productList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 3.5fr 1fr 1fr;
+  place-items: center;
+}
+
+/* Product ITEM STYLING */
+
+.productItem {
+  border-radius: 15px;
+  width: 300px;
+  /* height: 350px; */
+  height: 473px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.productItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.productItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  /* height: 230px; */
+  height: 347px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productItem h1,
+.productItem p {
+  margin-left: 20px;
+}
+
+
+/* Media Queries */
+
+/* Media Query for screens with a maximum width of 1920px (24 inches) */
+@media only screen and (max-width: 1920px) {
+
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .product {
+    height: 107vh;
+    width: 100%;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1024px (14 inches) */
+@media only screen and (max-width: 1024px) {
+
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .product {
+    height: 107vh;
+    width: 100%;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1200px (17 inches) */
+@media only screen and (max-width: 1200px) {
+  /* Adjust the number of columns for small screens */
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .product {
+    height: 107vh;
+    width: 100%;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1366px (19 inches) */
+@media only screen and (max-width: 1366px) {
+  /* Adjust the number of columns for small screens */
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .product {
+    height: 107vh;
+    width: 100%;
+  }
+}
+
+/* Media Query for screens with a maximum width of 1600px (20 inches) */
+@media only screen and (max-width: 1600px) {
+  /* Adjust the number of columns for small screens */
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .product {
+    height: 107vh;
+    width: 100%;
+  }
+}

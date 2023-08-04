@@ -1,0 +1,104 @@
+/* Common styles for .faq, .faqTop, and .faqBottom */
+.faq {
+  width: 100%;
+  height: 153vh;
+  display: block;
+  flex-direction: column;
+}
+
+.faqTop {
+  width: auto;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.faqBottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+  margin-top: 60px;
+  /* width: 100%;  */
+  width: 100%; /* Use a percentage width for responsiveness */
+  height: 620px; /* You can adjust this height as needed */
+  max-width: 1200px; /* Set a maximum width to prevent the content from becoming too wide */
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: padding-box; /* Include padding in the total width */
+}
+
+.faqBottom h2 {
+  margin-top: -25px;
+}
+
+.faqBottom p {
+  text-align: left;
+  font-weight: 600;
+  margin-top: 40px;
+  padding-left: 25vh;
+  font-size: 25px;
+}
+
+.faqBottom p h1 {
+  line-height: 45px;
+  text-align: left;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.faq .faqBottom h1 {
+  font-weight: 400;
+  color: black;
+  height: 39px;
+  justify-content: center;
+  padding-left: 8vh;
+  transform: translateY(-38px);
+  display: flex;
+}
+
+.faq .faqBottom h {
+  font-weight: 400;
+  color: black;
+  height: 39px;
+  font-size: 36px;
+  justify-content: center;
+  padding-left: 35vh;
+  transform: translateY(-38px);
+  display: flex;
+}
+
+.faq .faqBottom h2 {
+  font-weight: 700;
+  color: black;
+  height: 30px;
+  justify-content: center;
+  padding-left: 25vh;
+  display: flex;
+  line-height: 71px;
+  font-size: 24px;
+}
+
+/* Media query for screen sizes between 14 inches and 24 inches */
+@media (min-width: 14in) and (max-width: 24in) {
+  .faqBottom p {
+    font-size: 18px; /* Decrease font size for smaller screens */
+    padding-left: 10vh; /* Adjust padding for smaller screens */
+  }
+
+  .faqBottom p h1 {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .faq .faqBottom h {
+    font-size: 28px; /* Decrease font size for smaller screens */
+    padding-left: 30vh; /* Adjust padding for smaller screens */
+  }
+
+  .faq .faqBottom h2 {
+    font-size: 20px; /* Decrease font size for smaller screens */
+    line-height: 45px; /* Adjust line height for smaller screens */
+    padding-left: 25vh; /* Adjust padding for smaller screens */
+  }
+}

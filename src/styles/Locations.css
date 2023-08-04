@@ -1,0 +1,90 @@
+.locations {
+  width: 100%;
+  height: 165vh;
+  display: block;
+  flex-direction: column;
+}
+
+.locationsTop {
+  width: 100%;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.locationsBottom {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  font-size: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.locationsBottom button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: -65px;
+}
+
+.locationsBottom h2 {
+  margin-top: -9px;
+}
+
+.locationsBottom p {
+  max-width: 1200px;
+  text-align: center;
+  font-weight: bold; /* Use font-weight instead of font-style */
+  margin-top: 8px;
+}
+
+.locationsBottom button:hover {
+  background-color: #77D4FC;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.locationsBottom p h1 {
+  line-height: 45px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.locations .faqBottom h1 {
+  font-weight: 400;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+/* Media query for screen sizes between 14 inches and 24 inches */
+@media (min-width: 14in) and (max-width: 24in) {
+  .locationsBottom p {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .locationsBottom p h1 {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .locations {
+    width: 100%;
+    height: 155vh;
+    display: block;
+    flex-direction: column;
+  }
+}
